@@ -1,0 +1,29 @@
+{
+  "name": "dotav",
+  "version": "0.0.1",
+  "description": "the +19 site lists",
+  "bin": {
+    "fff": "cli.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d1y/dotav.git"
+  },
+  "keywords": [
+    "jav"
+  ],
+  "author": "d1y",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d1y/dotav/issues"
+  },
+  "homepage": "https://github.com/d1y/dotav#readme",
+  "dependencies": {
+    "clear": "^0.1.0",
+    "random-int": "^2.0.1"
+  }
+}
