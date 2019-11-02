@@ -24,9 +24,30 @@ npm i --save dotav
 
 ```js
 const dotAV = require('dotav')
-// print full 19+ sites
-console.log(dotAv.lists())
+
+// get all sites
+dotAv.getAll().then(r=> {
+  // console.log(r)
+})
+
+// 国内不被墙的网站
+dotAv.getChina().then(r=> {
+  // console.log(r)
+})
+
+// get free sites
+dotAv.getFree().then(r=> {
+  // console.log(r)
+})
+
+// random get site
+dotAv.getRandom().then(r=> {
+  console.log(r)
+})
+
 ```
+
+Please check [test.js](./test.js)
 
 ## CLI
 
@@ -38,10 +59,14 @@ npm i -g dotav
 
 ```
 
-print to full 18+ sites
+use
 
 ```bash
 
-fff
+# print rando site
+fff cat random
+
+# print all sites
+fff cat all
 
 ```
