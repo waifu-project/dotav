@@ -23,7 +23,7 @@ npm i --save dotav
 ## Usage
 
 ```js
-const dotAV = require('dotav')
+const dotAv = require('dotav')
 
 // get all sites
 dotAv.getAll().then(r=> {
